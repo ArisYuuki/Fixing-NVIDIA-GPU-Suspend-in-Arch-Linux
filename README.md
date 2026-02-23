@@ -1,4 +1,8 @@
 # Fixing-NVIDIA-GPU-Suspend-in-Arch-Linux
+![Arch Linux](https://img.shields.io/badge/Arch-Linux-blue?logo=arch-linux)
+![CachyOS](https://img.shields.io/badge/CachyOS-Optimized-brightgreen)
+![NVIDIA](https://img.shields.io/badge/GPU-NVIDIA-76B900?logo=nvidia)
+
 This is a fix for hybrid GPU laptops running NVIDIA GPU's. This will allow you to suspend your GPU fully when in hybrid graphics mode, allowing better battery life, and lower power consumption
 # NVIDIA Runtime Power Management (RTX 3080 Mobile Example)
 
