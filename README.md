@@ -86,7 +86,7 @@ Reboot recommended after applying changes.
 
 # GPU Idle Monitor (Avoid Accidental Wakeups)
 
-This script monitors NVIDIA runtime power management **without waking the GPU**. This is useful (yet completely optional) as using programs like BTOP will call on the GPU and wake it up while it is running. you can also check without this by simply typing "sensors" in your terminal while nothing is running (close steam or any other GPU processes first) and the GPU temperature should in theory read 0 or single digits when suspended.
+This script monitors NVIDIA runtime power management **without waking the GPU**. This is useful (yet completely optional) as using programs like BTOP will call on the GPU and wake it up while it is running.
 
 It safely reads:
 - `runtime_status`
@@ -169,5 +169,14 @@ Replace:
 ```bash
 0000:01:00.0
 ```
-
 with your actual PCI device path if needed.
+
+
+
+## Alternatively 
+you can simply enter "sensors" in the termial, and look for your GPU temperature. if it looks similar to this with nothing running, GPU suspend is fully functional
+
+<img width="929" height="815" alt="sensors" src="https://github.com/user-attachments/assets/14442216-a070-4593-9b13-ae639cccf56a" />
+
+
+
