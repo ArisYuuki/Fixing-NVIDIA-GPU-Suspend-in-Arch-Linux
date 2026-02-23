@@ -3,7 +3,9 @@
 ![CachyOS](https://img.shields.io/badge/CachyOS-Optimized-brightgreen)
 ![NVIDIA](https://img.shields.io/badge/GPU-NVIDIA-76B900?logo=nvidia)
 
-This is a fix for hybrid GPU laptops running NVIDIA GPU's. This will allow you to suspend your GPU fully when in hybrid graphics mode, allowing better battery life, and lower power consumption
+Improve power efficiency on hybrid laptops with NVIDIA GPUs.
+This repository provides a simple udev rule to enable runtime GPU power management (RUNTIME PM), letting the NVIDIA GPU automatically enter low-power mode when idle.
+Works alongside Arch Wiki / NVIDIA suspend/resume services to reduce power usage and maintain system stability. Ideal for Arch Linux, CachyOS, and other Arch-based distributions.
 # NVIDIA Runtime Power Management (RTX 3080 Mobile Example)
 
 This guide enables **runtime power management (Runtime PM)** for a specific NVIDIA GPU using a udev rule.
